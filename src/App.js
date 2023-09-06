@@ -1,12 +1,14 @@
 import "./App.css";
-import Home from "./Components/Home";
+// import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
+import Form from "./Components/Form";
 
 function App() {
   return (
-    <div className="blank">
+    <div>
       <Navbar title="Nutrals" />
-      <Home />
+      {/* <Home /> */}
+      <Form />
     </div>
   );
 }
