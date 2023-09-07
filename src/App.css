@@ -4,3 +4,10 @@
 .Navbar{
   background-color: #3d8c71 !important;
 }
+.formFirld{
+  padding-top: 20px;
+}
+.form{
+  width: 50%;
+  margin: auto;
+}
