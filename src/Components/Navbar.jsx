@@ -1,12 +1,13 @@
 import React from 'react'
-import Grid from '@mui/material/Grid';
-import Menu from '@mui/material/Menu';
-import Box from '@mui/material/Box'
-import { Button } from '@mui/material';
-import Typography from '@mui/material/Typography';
-import Toolbar from '@mui/material/Toolbar';
-import Tab from '@mui/material/Tab';
-import MenuItem from '@mui/material/MenuItem';
+import { Button, Grid, Typography, Menu ,Box ,Toolbar,Tab,MenuItem} from '@mui/material'
+
+// import Menu from '@mui/material';
+// import Box from '@mui/material'
+// import { Button } from '@mui/material';
+// import Typography from '@mui/material';
+// import Toolbar from '@mui/material';
+// import Tab from '@mui/material';
+// import MenuItem from '@mui/material';
 import img1 from '../images/logo.svg'
 import { Link } from 'react-router-dom';
 
@@ -89,7 +90,7 @@ const Mainnav={
             </label>
               <Typography style={nav} className='list'>
                <Link style={decor} to='/home'><Tab className='list1' sx={styles.menu} label="Home"/></Link>
-                <Link style={decor} to='/product'> <Tab className='list1' sx={styles.menu}  label="Product"/></Link>
+                <Link style={decor} to='/contact'> <Tab className='list1' sx={styles.menu}  label="Product"/></Link>
               
                <Link style={decor} to='/about'>
                <Tab className='list1' sx={styles.menu}  label="About"/>
@@ -103,23 +104,23 @@ const Mainnav={
         style={pageItems}
         
       >
-    <Link style={decor} to='/login'><MenuItem  sx={styles.menu}>Login</MenuItem></Link>
-    <Link style={decor} to='/SignUp'><MenuItem  sx={styles.menu}>SignUp</MenuItem></Link>
-    <Link style={decor} to='/card'>  <MenuItem  sx={styles.menu}>Cart</MenuItem></Link>
-    <Link style={decor} to='/catagories'> <MenuItem  sx={styles.menu}>Categories</MenuItem></Link>
-    <Link style={decor} to='/card2'> <MenuItem  sx={styles.menu}>Checkout</MenuItem></Link>
-       <Link style={decor} to='/productdetails'><MenuItem sx={styles.menu}>Product Details</MenuItem></Link>
+    <Link style={decor} to='/'><MenuItem  sx={styles.menu}>Login</MenuItem></Link>
+    <Link style={decor} to='/'><MenuItem  sx={styles.menu}>SignUp</MenuItem></Link>
+    <Link style={decor} to='/'>  <MenuItem  sx={styles.menu}>Cart</MenuItem></Link>
+    <Link style={decor} to='/'> <MenuItem  sx={styles.menu}>Categories</MenuItem></Link>
+    <Link style={decor} to='/'> <MenuItem  sx={styles.menu}>Checkout</MenuItem></Link>
+       <Link style={decor} to='/'><MenuItem sx={styles.menu}>Product Details</MenuItem></Link>
       </Menu>
               
                 <Menu
         style={items}
         
       >
-        <Link  style={decor} to='/blog'><MenuItem  sx={styles.menu}>Blog</MenuItem></Link>
-        <Link style={decor} to='/blogDetails'><MenuItem  sx={styles.menu}>Blog Details</MenuItem></Link>
-        <Link style={decor} to='/elements'><MenuItem  sx={styles.menu}>Elements</MenuItem></Link>
+        <Link  style={decor} to='/'><MenuItem  sx={styles.menu}>Blog</MenuItem></Link>
+        <Link style={decor} to='/'><MenuItem  sx={styles.menu}>Blog Details</MenuItem></Link>
+        <Link style={decor} to='/'><MenuItem  sx={styles.menu}>Elements</MenuItem></Link>
         </Menu>
-        <Link style={decor} to='/contact'>
+        <Link style={decor} to='/'>
                 <Tab className='list1' sx={styles.menu}  label="Contact"/>
           </Link>
               </Typography>
