@@ -89,8 +89,8 @@ const Mainnav={
             <i className="fas fa-bars"></i>
             </label>
               <Typography style={nav} className='list'>
-               <Link style={decor} to='/home'><Tab className='list1' sx={styles.menu} label="Home"/></Link>
-                <Link style={decor} to='/contact'> <Tab className='list1' sx={styles.menu}  label="Product"/></Link>
+               <Link style={decor} to='/contact'><Tab className='list1' sx={styles.menu} label="Home"/></Link>
+                <Link style={decor} to='/products'> <Tab className='list1' sx={styles.menu}  label="Product"/></Link>
               
                <Link style={decor} to='/about'>
                <Tab className='list1' sx={styles.menu}  label="About"/>

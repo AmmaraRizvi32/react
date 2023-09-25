@@ -6,6 +6,7 @@ import Homelast from './Homelast'
 import Footer from './Footer'
 import Home from './Home'
 import Form from './Form'
+import Homesect6 from "./Homesect6";
 
 const Routsfor = () => {
 
@@ -20,7 +21,7 @@ const Routsfor = () => {
                <Route  path="/" element={<Home/>} />
                <Route  path="/contact" element={<Form/>} />
                <Route path="/about" element={<Homelast/>} />
-               <Route path='/footer' element={<Footer />} />
+               <Route path='/products' element={<Homesect6 />} />
              </Routes>
            <Footer />  
             </BrowserRouter>
