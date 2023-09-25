@@ -1,12 +1,5 @@
 import React from 'react'
-import Grid from '@mui/material/Grid';
-import Menu from '@mui/material/Menu';
-import Box from '@mui/material/Box'
-import { Button } from '@mui/material';
-import Typography from '@mui/material/Typography';
-import Toolbar from '@mui/material/Toolbar';
-import Tab from '@mui/material/Tab';
-import MenuItem from '@mui/material/MenuItem';
+import {Grid, Menu, Box, Button,Typography,Toolbar,Tab ,MenuItem,} from '@mui/material';
 import img1 from '../images/logo.svg'
 import { Link } from 'react-router-dom';
 
