@@ -1,12 +1,25 @@
+import React from "react";
 import "./App.css";
-import Navbar from "./Components/Navbar";
-import Footer from './Components/Footer'
+// import Home from "./Components/Home";
+// import Navbar from "./Components/Navbar";
+// import Form from "./Components/Form";
+// import Footer from './Components/Footer'
+// import Homelast from "./Components/Homelast";
+import Routsfor from "./Components/Routsfor";
+// import Homesect6 from "./Components/Homesect6";
 function App() {
   return (
     <div>
-      <Navbar />
-
-      <Footer />
+      {/* <Navbar title="Nutrals" /> */}
+      {/* <Home /> */}
+      {/* <Navbar /> */}
+      {/* <Homelast />
+      <Footer /> */}
+      <React.Fragment>
+          {/* < Homesect6 /> */}
+          <Routsfor />
+        
+      </React.Fragment>
     </div>
   );
 }

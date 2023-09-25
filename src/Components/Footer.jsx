@@ -45,13 +45,19 @@ const Footer = () => {
   const Madewith=styled.span`
      color:#FD8F5F !important;
   `
+  const Ftmain ={
+    backgroundColor:'#1D2547',
+    width:'100%',
+    display:'flex',
+    justifyContent:'right',
+  }
   return (
     <>
+    <div style={Ftmain}>
      <Container sx={{backgroundColor:'#1D2547',lineHeight: '1.8',color: '#C2C5DB',paddingY:'50px',marginTop:'10px'}}>
           <Grid container marginTop={3} direction="row"
         justifyContent="space-between"
-        alignItems="baseline"
-      >
+        alignItems="baseline"  >
             <Grid item xs={12} sm={6} md={4} lg={4}  >
               <Footerimg src={Footerimage}></Footerimg>
               <FooterPara>Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</FooterPara>
@@ -90,7 +96,7 @@ const Footer = () => {
             <Typography variant='p'>Copyright ©2023 All rights reserved | This template is made with <Madewith>React Js</Madewith></Typography>
           </Footerbottom>
      </Container>
-
+     </div>
     </>
   )
 }
