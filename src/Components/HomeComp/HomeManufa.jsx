@@ -39,7 +39,7 @@ const HomeManufa = () => {
       </Grid>
       <Grid item sm={6}>
         <Box style={sec3Info} className='sec3Info' data-aos="fade-up">
-       <Typography className='sec3head' style={sec3head} variant="h2">BEST Furniture MENUFECTURER</Typography>
+       <Typography className='sec3head' style={sec3head} variant="h4">BEST FURNITURE FACTURER</Typography>
        <Typography style={sec3para} variant="p">Suspendisse varius enim in eros elementu tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</Typography>
        {/* <Typography style={sec3para} variant="p">Suspendisse varius enim in eros elementu tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</Typography> */}
        <Box >

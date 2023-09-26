@@ -74,10 +74,6 @@ const Mainnav={
     color:'white',
     fontSize:'16px',
    }
-   
-
-
- 
   return (
     <>
      <Grid item container>
@@ -89,7 +85,11 @@ const Mainnav={
             <i className="fas fa-bars"></i>
             </label>
               <Typography style={nav} className='list'>
-               <Link style={decor} to='/home'><Tab className='list1' sx={styles.menu} label="Home"/></Link>
+               <Box sx={{display:'flex',flexDirection:'row'}}>
+               <Link style={decor} to='/home'>
+                <Tab className='list1' sx={styles.menu} label="Home"/>
+                </Link>
+               
                 <Link style={decor} to='/products'> <Tab className='list1' sx={styles.menu}  label="Product"/></Link>
               
                <Link style={decor} to='/about'>
@@ -97,8 +97,12 @@ const Mainnav={
                </Link>
                 <Tab className='list1' sx={styles.menu}  label="page"
                 aria-haspopup="true"
-                
-                />
+ />
+ <Link style={decor} to='/'>
+                <Tab className='list1' sx={styles.menu}  label="Contact"/>
+          </Link>
+  </Box>
+
                 <Menu
         id="simple-menu"
         style={pageItems}
@@ -120,9 +124,7 @@ const Mainnav={
         <Link style={decor} to='/'><MenuItem  sx={styles.menu}>Blog Details</MenuItem></Link>
         <Link style={decor} to='/'><MenuItem  sx={styles.menu}>Elements</MenuItem></Link>
         </Menu>
-        <Link style={decor} to='/'>
-                <Tab className='list1' sx={styles.menu}  label="Contact"/>
-          </Link>
+        
               </Typography>
               {/* <Search>
             <SearchIconWrapper>
