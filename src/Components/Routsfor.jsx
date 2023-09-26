@@ -2,7 +2,7 @@ import React from 'react'
 import { Route } from 'react-router'
 import { BrowserRouter ,Routes} from 'react-router-dom'
 import Navbar from './Navbar'
-import Homelast from './Homelast'
+// import Homelast from './Homelast'
 import Footer from './Footer'
 import Home from './Home'
 import Form from './Form'
@@ -10,7 +10,7 @@ import Homesect6 from "./Homesect6";
 
 import About from './About'
 // import Form from './Form'
-import HomeBanner from './HomeComp/HomeBanner';
+// import HomeBanner from './HomeComp/HomeBanner';
 const Routsfor = () => {
 
   return (
