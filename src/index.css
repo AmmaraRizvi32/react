@@ -11,3 +11,7 @@
     background-size: cover;
     filter: brightness(0.5);
   }
+  .ban-text{
+    padding-top: 130px;
+    padding-left: 50px;
+  }
