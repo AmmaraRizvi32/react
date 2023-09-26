@@ -2,9 +2,9 @@ import React from 'react'
 
 const Homesect3 = () => {
   return (
-    <div>
+    <>
        
-    </div>
+    </>
   )
 }
 
