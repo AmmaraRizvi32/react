@@ -5,6 +5,10 @@ import Navbar from './Navbar'
 import Homelast from './Homelast'
 import Footer from './Footer'
 import Home from './Home'
+import Form from './Form'
+import Homesect6 from "./Homesect6";
+
+import About from './About'
 // import Form from './Form'
 import HomeBanner from './HomeComp/HomeBanner';
 const Routsfor = () => {
@@ -18,10 +22,10 @@ const Routsfor = () => {
             <Routes>
                
                <Route  path="/" element={<Home/>} />
-               <Route  path="/homebanner" element={<HomeBanner/>} />
-               {/* <Route  path="/contact" element={<Form/>} /> */}
-               <Route path="/about" element={<Homelast/>} />
-               <Route path='/footer' element={<Footer />} />
+               <Route  path="/contact" element={<Form/>} />
+               <Route path="/about" element={<About/>} />
+               <Route path='/products' element={<Homesect6 />} />
+               
              </Routes>
            <Footer />  
             </BrowserRouter>
@@ -29,4 +33,4 @@ const Routsfor = () => {
   )
 }
 
-export default Routsfor
+export default Routsfor;
