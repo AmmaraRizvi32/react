@@ -7,10 +7,7 @@ import Footer from './Footer'
 import Home from './Home'
 import Form from './Form'
 import Homesect6 from "./Homesect6";
-
 import About from './About'
-// import Form from './Form'
-// import HomeBanner from './HomeComp/HomeBanner';
 const Routsfor = () => {
 
   return (
