@@ -11,3 +11,9 @@
   width: 50%;
   margin: auto;
 }
+.mainBann{
+  display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 700px;
+}

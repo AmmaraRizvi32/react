@@ -6,18 +6,24 @@ import Button from '@mui/material/Button'
 import img2 from '..//../images/bg.webp'
 
 const HomeBanner = () => {
+  const mainBann={
+    display:'flex',
+    alignItems: 'center',
+    height: '700px',
+  }
     const bgImg={
         backgroundImage: `url(${img2})`,
         height: "700px",
         backgroundSize: "cover",
-        zIndex: "-1"
+        zIndex: "-1",
+        marginTop: "-100px",
       }
       const banCntnt={
         backgroundColor: "white",
-        width: "31%",
+        width: "36%",
         marginTop: "100px",
         padding: "50px",
-        marginLeft: "50px"
+        marginLeft: "100px"
       }
       const banBtn={
         background: "#FD8F5F",
@@ -36,10 +42,10 @@ const HomeBanner = () => {
   return (
     <>
       <div style={bgImg} className='banImg'>
-        <Grid > 
+        <Grid style={mainBann}> 
           <Box style={banCntnt} className='banner' data-aos="fade-up">
             <Typography className='banHead' style={banHead}  sx={{color: "black"}} variant="h6">70% sale off</Typography>
-            <Typography className='banInfo' style={banHead}  sx={{color: "black"}} variant="h2">Furniture At Cost</Typography>
+            <Typography className='banInfo' style={banHead}  sx={{color: "black"}} variant="h2">Furniture At<br/> Cost</Typography>
             <Typography className='banPara' style={banPara} >Suspendisse varius enim in eros  elementu tristique. Duis cursus, mi quis <br></br> viverra ornare, eros dolor interdum nulla.</Typography>
             <Button style={banBtn}>Discover More</Button>
           </Box>
