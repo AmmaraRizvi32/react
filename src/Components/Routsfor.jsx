@@ -7,7 +7,7 @@ import Footer from './Footer'
 import Home from './Home'
 import Form from './Form'
 import Homesect6 from "./Homesect6";
-
+import Homesect2 from "./Homesect2"
 const Routsfor = () => {
 
   return (

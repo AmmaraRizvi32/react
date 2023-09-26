@@ -1,4 +1,4 @@
-import { Container, Grid, Typography } from '@mui/material'
+import {Grid, Typography } from '@mui/material'
 import React from 'react'
 import styled from 'styled-components'
 import popular7 from '../images/popular7.png.webp'
@@ -32,7 +32,7 @@ const Homesect6 = () => {
           <Typography variant="h4" sx={{fontWeight:'bolder',color:'black'}} >TOP PICK</Typography>
           <Typography variant='p'>Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</Typography>
       </Sect6topdiv>
-      <div>
+      <div className='col-md-11 mx-auto'>
         <Grid container direction="row" justifyContent="space-evenly">
            <Grid item xs={12} md={6} lg={4} xl={4} >
              <Sect6img src={popular7}/>

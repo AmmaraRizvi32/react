@@ -16,8 +16,8 @@ function App() {
       {/* <Homelast />
       <Footer /> */}
       <React.Fragment>
-          {/* < Homesect6 /> */}
           <Routsfor />
+          {/* < Homesect6 /> */}
         
       </React.Fragment>
     </div>
