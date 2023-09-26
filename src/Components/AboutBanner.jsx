@@ -19,6 +19,9 @@ const AboutBanner = () => {
         lineHeight: "27px",
         paddingTop: "30px"
       }
+      const pgIcon={
+        fontSize: "11px",
+       }
   return (
     <div>
         <Grid item container>
