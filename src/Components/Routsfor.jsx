@@ -5,8 +5,8 @@ import Navbar from './Navbar'
 import Homelast from './Homelast'
 import Footer from './Footer'
 import Home from './Home'
-import Form from './Form'
-
+// import Form from './Form'
+import HomeBanner from './HomeComp/HomeBanner';
 const Routsfor = () => {
 
   return (
@@ -18,7 +18,8 @@ const Routsfor = () => {
             <Routes>
                
                <Route  path="/" element={<Home/>} />
-               <Route  path="/contact" element={<Form/>} />
+               <Route  path="/homebanner" element={<HomeBanner/>} />
+               {/* <Route  path="/contact" element={<Form/>} /> */}
                <Route path="/about" element={<Homelast/>} />
                <Route path='/footer' element={<Footer />} />
              </Routes>

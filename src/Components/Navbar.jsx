@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Grid, Typography, Menu ,Box ,Toolbar,Tab,MenuItem} from '@mui/material'
-
+// import SearchIcon from '@mui/icons-material/Search';
 // import Menu from '@mui/material';
 // import Box from '@mui/material'
 // import { Button } from '@mui/material';
@@ -8,7 +8,7 @@ import { Button, Grid, Typography, Menu ,Box ,Toolbar,Tab,MenuItem} from '@mui/m
 // import Toolbar from '@mui/material';
 // import Tab from '@mui/material';
 // import MenuItem from '@mui/material';
-import img1 from '../images/logo.svg'
+import img1 from '../images/logo.png.webp'
 import { Link } from 'react-router-dom';
 
 const Navbar=()=> {
@@ -31,7 +31,7 @@ const Mainnav={
     top: "0",
   }
   const nav={
-    marginLeft: "250px",
+    marginLeft: "500px",
     padding: "17px 0px", 
   }
   const styles={
@@ -124,6 +124,15 @@ const Mainnav={
                 <Tab className='list1' sx={styles.menu}  label="Contact"/>
           </Link>
               </Typography>
+              {/* <Search>
+            <SearchIconWrapper>
+              <SearchIcon />
+            </SearchIconWrapper>
+            <StyledInputBase
+              placeholder="Search…"
+              inputProps={{ 'aria-label': 'search' }}
+            />
+          </Search> */}
               <Box style={mainAcount} className='acount'>
                 <Typography className='aount1'  style={acount}>My Account</Typography>
               
