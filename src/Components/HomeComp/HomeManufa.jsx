@@ -22,8 +22,14 @@ const HomeManufa = () => {
   }
   const sec3Info={
     backgroundColor: "#F2E1D9",
-    height: "310px",
+    height: "450px",
     padding: "70px 40px"
+  }
+  const banBtn={
+    background: "#FD8F5F",
+    color: "white",
+    padding: "12px 25px",
+    marginTop: "20px"
   }
   return (
     <>
@@ -37,7 +43,7 @@ const HomeManufa = () => {
        <Typography style={sec3para} variant="p">Suspendisse varius enim in eros elementu tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</Typography>
        {/* <Typography style={sec3para} variant="p">Suspendisse varius enim in eros elementu tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</Typography> */}
        <Box >
-       <Button data-aos="fade-up" >Discover More</Button>
+       <Button data-aos="fade-up" style={banBtn}>Discover More</Button>
         {/* style={banBtn} */}
        </Box>
        </Box>
