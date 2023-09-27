@@ -1,13 +1,5 @@
 import React from 'react'
 import { Button, Grid, Typography, Menu ,Box ,Toolbar,Tab,MenuItem} from '@mui/material'
-// import SearchIcon from '@mui/icons-material/Search';
-// import Menu from '@mui/material';
-// import Box from '@mui/material'
-// import { Button } from '@mui/material';
-// import Typography from '@mui/material';
-// import Toolbar from '@mui/material';
-// import Tab from '@mui/material';
-// import MenuItem from '@mui/material';
 import img1 from '../images/logo.png.webp'
 import { Link } from 'react-router-dom';
 
@@ -101,6 +93,8 @@ const Mainnav={
  <Link style={decor} to='/contact'>
                 <Tab className='list1' sx={styles.menu}  label="Contact"/>
           </Link>
+          <Link  style={decor} to='/blog'><Tab  sx={styles.menu} label="Blog"/></Link>
+
   </Box>
 
                 <Menu
@@ -120,7 +114,7 @@ const Mainnav={
         style={items}
         
       >
-        <Link  style={decor} to='/'><MenuItem  sx={styles.menu}>Blog</MenuItem></Link>
+        <Link  style={decor} to='/blog'><MenuItem  sx={styles.menu}>Blog</MenuItem></Link>
         <Link style={decor} to='/'><MenuItem  sx={styles.menu}>Blog Details</MenuItem></Link>
         <Link style={decor} to='/'><MenuItem  sx={styles.menu}>Elements</MenuItem></Link>
         </Menu>
