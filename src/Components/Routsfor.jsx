@@ -19,6 +19,7 @@ const Routsfor = () => {
             <Routes>
                
                <Route  path="/" element={<Home/>} />
+               <Route  path="/home" element={<Home/>} />
                <Route  path="/contact" element={<Form/>} />
                <Route path="/about" element={<About/>} />
                <Route path='/products' element={<Homesect6 />} />
