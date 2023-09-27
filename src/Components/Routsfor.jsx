@@ -5,10 +5,9 @@ import Navbar from './Navbar'
 // import Homelast from './Homelast'
 import Footer from './Footer'
 import Home from './Home'
-import Form from './Form'
-import Homesect6 from "./Homesect6";
 import About from './About'
 import Contact from './Contact'
+import Product from './Product'
 const Routsfor = () => {
 
   return (
@@ -23,7 +22,7 @@ const Routsfor = () => {
                <Route  path="/home" element={<Home/>} />
                {/* <Route  path="/contact" element={<Form/>} /> */}
                <Route path="/about" element={<About/>} />
-               <Route path='/products' element={<Homesect6 />} />
+               <Route path='/products' element={<Product />} />
                <Route path='/contact' element={<Contact />} />
                
              </Routes>
