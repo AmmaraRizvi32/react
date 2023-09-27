@@ -10,7 +10,7 @@ const Homesect6 = () => {
     width:50%;
     margin:90px auto;
     text-align:center;
-    color:rgba(0,0,0,0.6)
+    color:rgba(0,0,0,0.6);
     @media (max-width: 790px) {
      width:90%;
      margin:30px auto; 
@@ -26,6 +26,10 @@ const Homesect6 = () => {
     text-decoration:underline;
    }
  `
+ const prodMain={
+  display: 'flex',
+  flexDirection: 'Column'
+ }
   return (
     <>
       <Sect6topdiv>
@@ -34,18 +38,18 @@ const Homesect6 = () => {
       </Sect6topdiv>
       <div className='col-md-11 mx-auto'>
         <Grid container direction="row" justifyContent="space-evenly">
-           <Grid item xs={12} md={6} lg={4} xl={4} >
+           <Grid style={prodMain} item xs={12} md={6} lg={4} xl={4} >
              <Sect6img src={popular7}/>
              <Sect6para>Bly Microfiber / Microsuede 56" Armless Loveseat</Sect6para>
              <Typography variant='h5' marginY={3} sx={{textAlign:'center',color:'#670000',fontWeight:'bolder'}}>$367</Typography>
            </Grid>
-           <Grid item xs={12} md={6} lg={4} xl={4} >
+           <Grid style={prodMain} item xs={12} md={6} lg={4} xl={4} >
              <Sect6img src={popular8}/>
              <Sect6para>Bly Microfiber / Microsuede 56" Armless Loveseat</Sect6para>
              <Typography variant='h5' marginY={3} sx={{textAlign:'center',color:'#670000',fontWeight:'bolder'}}>$367</Typography>
 
            </Grid>
-           <Grid item xs={12} md={6} lg={4} xl={4} >
+           <Grid style={prodMain} item xs={12} md={6} lg={4} xl={4} >
              <Sect6img src={popular9}/>
              <Sect6para>Bly Microfiber / Microsuede 56" Armless Loveseat</Sect6para>
              <Typography variant='h5' marginY={3} sx={{textAlign:'center',color:'#670000',fontWeight:'bolder'}}>$367</Typography>
