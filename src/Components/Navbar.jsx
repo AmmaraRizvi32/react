@@ -98,7 +98,7 @@ const Mainnav={
                 <Tab className='list1' sx={styles.menu}  label="page"
                 aria-haspopup="true"
  />
- <Link style={decor} to='/'>
+ <Link style={decor} to='/contact'>
                 <Tab className='list1' sx={styles.menu}  label="Contact"/>
           </Link>
   </Box>

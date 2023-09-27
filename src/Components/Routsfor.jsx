@@ -8,6 +8,7 @@ import Home from './Home'
 import Form from './Form'
 import Homesect6 from "./Homesect6";
 import About from './About'
+import Contact from './Contact'
 const Routsfor = () => {
 
   return (
@@ -20,7 +21,7 @@ const Routsfor = () => {
                
                <Route  path="/" element={<Home/>} />
                <Route  path="/home" element={<Home/>} />
-               <Route  path="/contact" element={<Form/>} />
+               <Route  path="/contact" element={<Contact/>} />
                <Route path="/about" element={<About/>} />
                <Route path='/products' element={<Homesect6 />} />
                
