@@ -1,7 +1,8 @@
 import React from 'react'
-import { Container,Grid,Box, Typography } from '@mui/material'
+import { Container,Grid, Typography } from '@mui/material'
 import Navbar from './Navbar'
 import ContBanner from './ContactComp/ContBanner'
+
 const Contact = () => {
     const blog={
         marginTop: "230px"
