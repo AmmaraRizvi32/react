@@ -9,6 +9,7 @@ import About from './About'
 import Contact from './Contact'
 import Product from './Product'
 import Blog from './Blog'
+import BlogDeta from './BlogDeta'
 const Routsfor = () => {
 
   return (
@@ -26,7 +27,7 @@ const Routsfor = () => {
                <Route path='/products' element={<Product />} />
                <Route path='/contact' element={<Contact />} />
                <Route path='/blog' element={<Blog />} />
-               
+               <Route path='/blogDeta' element={<BlogDeta />} />
              </Routes>
            <Footer />  
             </BrowserRouter>

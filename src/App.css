@@ -17,3 +17,9 @@
     justify-content: start;
     height: 700px;
 }
+.post-title{
+  font-size: 20px;
+}
+.orange-hover{
+  padding: 10px 0;
+}

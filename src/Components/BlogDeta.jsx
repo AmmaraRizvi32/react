@@ -1,29 +1,27 @@
 import React from 'react'
-import BlogBanner from './Blog/BlogBanner'
-import BlogPosts from './Blog/BlogPosts'
 import {Container,Box,Grid,} from "@mui/material";
-import Sidepanel from '../Components/Blog/Sidepanel'
-const Blog = () => {
+import BlogBanner from './Blog/BlogBanner'
+import Sidepanel from './Blog/Sidepanel'
+import BlogDleft from './BlogDetalComp/BlogDleft'
+const BlogDeta = () => {
     const blog={
         marginTop: "230px"
        }
   return (
     <>
-     <BlogBanner />
-     <Container>
-    <Box >
-      <Grid container spacing={2} style={blog}> 
+        <BlogBanner />
+        <Container >
+      <Grid container spacing={2} style={blog}>
         <Grid item xs={12} sm={12} md={8} lg={8}>
-          <Box><BlogPosts /></Box>
+          <Box><BlogDleft /></Box>
         </Grid>
         <Grid item xs={12} sm={12} md={4} lg={4}>
           <Box><Sidepanel /></Box>
         </Grid>
       </Grid>
-    </Box> 
-    </Container>
+  </Container>
     </>
   )
 }
 
-export default Blog
+export default BlogDeta

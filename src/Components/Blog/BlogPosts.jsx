@@ -21,12 +21,12 @@ const BlogPosts = () => {
           <h2 className="orange-hover">
             Google inks pact for new 35-storey office
           </h2>
-          <Typography sx={{ fontSize: 14, color: "gray" }}>
+          <Typography sx={{ fontSize: 14, color: "gray" , padding: "10px 0" }}>
             That dominion stars lights dominion divide years for fourth have
             don't stars is that he earth it first without heaven in place seed
             it second morning saying.
           </Typography>
-          <Box component="span">
+          <Box component="span">ii
             <Typography
               className="list-item"
               sx={{ fontSize: 14, display: "inline-block" }}
