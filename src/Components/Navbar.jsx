@@ -95,6 +95,18 @@ const Mainnav={
                 <Link style={decor} to='/login'><MenuItem  sx={styles.menu}>Login</MenuItem></Link>
                 <Link style={decor} to='/cart'>  <MenuItem  sx={styles.menu}>Cart</MenuItem></Link>
 {/* 
+=======
+                <Tab className='list1' sx={styles.menu}  label="page"
+                aria-haspopup="true"
+ />
+ <Link style={decor} to='/contact'>
+                <Tab className='list1' sx={styles.menu}  label="Contact"/>
+          </Link>
+          <Link  style={decor} to='/blog'><Tab  sx={styles.menu} label="Blog"/></Link>
+
+  </Box>
+
+>>>>>>> 13a6d63a9cd72a9d93b9886ce634c60113519e07
                 <Menu
         id="simple-menu"
         style={pageItems}
@@ -111,7 +123,7 @@ const Mainnav={
         style={items}
         
       >
-        <Link  style={decor} to='/'><MenuItem  sx={styles.menu}>Blog</MenuItem></Link>
+        <Link  style={decor} to='/blog'><MenuItem  sx={styles.menu}>Blog</MenuItem></Link>
         <Link style={decor} to='/'><MenuItem  sx={styles.menu}>Blog Details</MenuItem></Link>
         <Link style={decor} to='/'><MenuItem  sx={styles.menu}>Elements</MenuItem></Link>
         </Menu> */}
