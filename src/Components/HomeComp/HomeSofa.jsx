@@ -55,21 +55,21 @@ const HomeSofa = () => {
 
 </Typography>
       </Sect6topdiv>
-         <div style={homeSofaMain} className='col-md-10 mx-auto'>
+         <div style={homeSofaMain} className='container mx-auto'>
         <Grid container direction="row" justifyContent="space-evenly">
            <Grid style={prodMain} item xs={12} md={4} lg={4} xl={4} >
-             <img src={popular4}/>
+             <img src={popular4} alt=''/>
              <p style={sofaCont}>Bly Microfiber / Microsuede 56" Armless Loveseat</p>
              <Typography variant='h5' marginY={3} sx={{textAlign:'center',color:'#670000',fontWeight:'bolder'}}>$367</Typography>
            </Grid>
            <Grid style={prodMain} item xs={12} md={4} lg={4} xl={4} >
-             <img src={popular5}/>
+             <img src={popular5}  alt=''/>
              <p style={sofaCont}>Bly Microfiber / Microsuede 56" Armless Loveseat</p>
              <Typography variant='h5' marginY={3} sx={{textAlign:'center',color:'#670000',fontWeight:'bolder'}}>$367</Typography>
 
            </Grid>
            <Grid style={prodMain} item xs={12} md={4} lg={4} xl={4} >
-             <img src={popular6}/>
+             <img src={popular6}  alt=''/>
              <p style={sofaCont}>Bly Microfiber / Microsuede 56" Armless Loveseat</p>
              <Typography variant='h5' marginY={3} sx={{textAlign:'center',color:'#670000',fontWeight:'bolder'}}>$367</Typography>
 

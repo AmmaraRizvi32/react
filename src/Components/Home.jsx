@@ -6,6 +6,7 @@ import HomeBanner from './HomeComp/HomeBanner'
 import HomeManufa from './HomeComp/HomeManufa'
 import Homeinsta from './HomeComp/HomeInsta'
 import HomeSofa from './HomeComp/HomeSofa'
+
 const Home = () => {
   return (
     <>
