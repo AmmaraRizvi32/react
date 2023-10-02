@@ -9,9 +9,8 @@ import Contact from './Contact'
 import Product from './Product'
 import Login from './Login'
 import Cart from './Cart' 
-
-
 import Blog from './Blog'
+import Category from './Category'
 
 const Routsfor = () => {
 
@@ -31,7 +30,7 @@ const Routsfor = () => {
                <Route path="/about" element={<About/>} />
                <Route path='/products' element={<Product />} />
                <Route path='/contact' element={<Contact />} />
-
+               <Route path='/category' element={<Category/>} />
                <Route path='/cart' element={<Cart/>} />
                <Route path='/blog' element={<Blog />} />
                

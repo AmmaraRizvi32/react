@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import popular7 from '../images/popular7.png.webp'
 import popular8 from '../images/popular8.png.webp'
 import popular9 from '../images/popular9.png.webp'
-
 const Homesect6 = () => {
  const Sect6topdiv=styled.div`
     width:50%;
