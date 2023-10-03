@@ -11,7 +11,7 @@ const ContBanner = () => {
   return (
     <div>
         <Grid item container>
-        <Grid className='prdct-ban' item sm={12}>
+        <Grid className='prdct-ban' item sm={12} marginBottom={8}>
         <Box className='bannerImg'>
             <Box className='ban-text'>
             <Typography sx={{color: "white", fontWeight: "900"}} variant="h3">CONTACT</Typography>

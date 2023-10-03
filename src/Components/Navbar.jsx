@@ -82,22 +82,6 @@ const Mainnav={
     textDecoration: "none",
     color: "black"
   }
-  // const mainShop={
-  //   position: "relative"
-  // }
-  // const shop={
-  //   background: "rgb(253, 143, 95)",
-  //   fontSize: "15px",
-  //   top: "21px",
-  //   left: "38px",
-  //   position: "absolute",
-  //   padding: "3px 8px",
-  //   borderRadius: "45%"
-  // }
-  // const shopImg={
-  //   marginLeft: "28px",
-  //   marginTop: "11px"
-  // }
   const logbtn = {
     backgroundColor:'#FD8F5F',
     padding:'10px',

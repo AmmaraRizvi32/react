@@ -10,6 +10,10 @@ import Contact from './Contact'
 import Product from './Product'
 import Blog from './Blog'
 import BlogDeta from './BlogDeta'
+import Cart from './Cart'
+import Category from './Category'
+import Login from './Login'
+
 const Routsfor = () => {
 
   return (
@@ -20,14 +24,16 @@ const Routsfor = () => {
 
             <Routes>
                
-               {/* <Route  path="/" element={<Home/>} /> */}
+               <Route  path="/" element={<Home/>} />
                <Route  path="/home" element={<Home/>} />
-               {/* <Route  path="/contact" element={<Form/>} /> */}
+               <Route path='/card' element={<Cart/>} />
+               <Route path='/catagories' element={<Category />} />
                <Route path="/about" element={<About/>} />
-               <Route path='/products' element={<Product />} />
+               <Route path='/product' element={<Product />} />
                <Route path='/contact' element={<Contact />} />
                <Route path='/blog' element={<Blog />} />
                <Route path='/blogDeta' element={<BlogDeta />} />
+               <Route path="/login" element={<Login />} />
              </Routes>
            <Footer />  
             </BrowserRouter>
