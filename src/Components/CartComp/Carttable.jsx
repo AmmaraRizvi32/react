@@ -54,7 +54,31 @@ const rows = [
         </TableBody>
       </Table>
     </TableContainer>
-    
+    <div className="col-md-12 d-md-flex justify-content-end">
+       <div className="col-md-2">
+          <div className='d-flex justify-content-center align-items-center'><span className="fs-6">Flat Rate: $5.00 </span><Radio size='small'/></div>
+       </div>
+    </div>
+    <div className="col-md-12 d-md-flex justify-content-end">
+       <div className="col-md-2">
+          <div className='d-flex justify-content-center align-items-center'><span className="fs-6">Free Shipping  </span><Radio size='small'/></div>
+       </div>
+    </div>
+    <div className="col-md-12 d-md-flex justify-content-end">
+       <div className="col-md-2">
+          <div className='d-flex justify-content-center align-items-center'><span className="fs-6">Flat Rate: $10.00 </span><Radio size='small'/></div>
+       </div>
+    </div>
+    <div className="col-md-12 d-md-flex justify-content-end">
+       <div className="col-md-2">
+          <div className='d-flex justify-content-center align-items-center'><span className="fs-6">Local Delivery: $2.00 </span><Radio size='small'/></div>
+       </div>
+    </div>
+    <div className="col-md-12 d-md-flex justify-content-end">
+       <div className="col-md-2">
+          <div className='d-flex justify-content-center align-items-center'><span className="fs-6">Calculate Shipping </span></div>
+       </div>
+    </div>
     </>
   )
 }
