@@ -155,7 +155,7 @@ function Navbar() {
     <Link style={decor} to='/SignUp'><MenuItem onClick={handleClose} sx={styles.menu}>SignUp</MenuItem></Link>
     <Link style={decor} to='/card'>  <MenuItem onClick={handleClose} sx={styles.menu}>Cart</MenuItem></Link>
     <Link style={decor} to='/catagories'> <MenuItem onClick={handleClose} sx={styles.menu}>Categories</MenuItem></Link>
-    <Link style={decor} to='/card2'> <MenuItem onClick={handleClose} sx={styles.menu}>Checkout</MenuItem></Link>
+    <Link style={decor} to='/checkout'> <MenuItem onClick={handleClose} sx={styles.menu}>Checkout</MenuItem></Link>
        <Link style={decor} to='/productdetails'><MenuItem sx={styles.menu}onClick={handleClose}>Product Details</MenuItem></Link>
       </Menu>
                <Tab className='list1'  sx={styles.menu} label="Blog" 

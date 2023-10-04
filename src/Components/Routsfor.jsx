@@ -13,7 +13,7 @@ import BlogDeta from './BlogDeta'
 import Cart from './Cart'
 import Category from './Category'
 import Login from './Login'
-
+import Checkout from './Checkout'
 const Routsfor = () => {
 
   return (
@@ -31,6 +31,7 @@ const Routsfor = () => {
                <Route path="/about" element={<About/>} />
                <Route path='/product' element={<Product />} />
                <Route path='/contact' element={<Contact />} />
+               <Route path="/checkout" element={<Checkout />} />
                <Route path='/blog' element={<Blog />} />
                <Route path='/blogDeta' element={<BlogDeta />} />
                <Route path="/login" element={<Login />} />
