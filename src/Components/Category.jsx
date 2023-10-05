@@ -91,7 +91,6 @@ const Category = () => {
           <div className='text-secondary'><Checkbox /><span className=''>Last 5 days</span></div>
           <div className='text-secondary'><Checkbox /><span className=''>Last 7 days</span></div>
           <div className='text-secondary'><Checkbox /><span className=''>Last 10 days</span></div>
-
          </Grid>
         <Grid item sm={12} md={9}>
         <div className='col-md-12 mx-auto'>
